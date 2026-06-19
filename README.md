@@ -8,6 +8,8 @@
 ## Descripción del Proyecto
 Este proyecto implementa un modelo de visión artificial basado en la arquitectura **YOLOv8 (You Only Look Once)** entrenado específicamente para la localización y clasificación automatizada de piezas dentales sanas y lesiones de caries en imágenes intraorales. El objetivo es proporcionar a los profesionales de la salud dental una herramienta de diagnóstico rápido que reduzca el margen de error humano y optimice los tiempos de consulta.
 
+El conjunto de datos (dataset) fue gestionado, preprocesado y exportado utilizando la plataforma **Roboflow**, de donde se obtuvieron más de 9000 imagenes de dientes con caries (y sanos) para garantizar un etiquetado preciso de las clases y un formateo óptimo para el entrenamiento del modelo. El objetivo final es proporcionar a los profesionales de la salud dental una herramienta de diagnóstico rápido que reduzca el margen de error humano y optimice los tiempos de consulta.
+
 ---
 
 ## Estructura del Repositorio
@@ -69,6 +71,22 @@ El comportamiento dinámico del sistema automatizado se ejecuta bajo el siguient
 3. Procesamiento de Clases:
    * Si el modelo detecta un Diente Sano, genera un cuadro delimitador Blanco (Clase 2) con su porcentaje de confianza en la pantalla de consulta.
    * Si el modelo localiza una zona con desmineralización o fosas oscuras sospechosas, activa una alerta visual instantánea dibujando un cuadro Azul (Clase 1) de "CARIES DETECTADA".
+
+  
+## Evidencias de Diagnóstico y Resultados
+
+### Muestras de Inferencia
+A continuación se muestran los resultados visuales del modelo detectando piezas sanas (recuadro blanco) y anomalías (recuadro azul):
+
+![Prueba de Inferencia 1](prueba.jpg)
+![Prueba de Inferencia 2](prueba2.jpg)
+![Prueba de Inferencia 3](prueba3.jpg)
+![Prueba de Inferencia 4](prueba4.jpg)
+
+### Métricas de Rendimiento
+Gráfica que demuestra la evolución del entrenamiento y la matriz de confusión del modelo:
+
+![Matriz de Confusión](confusion_matrix.png)
 
 
 
