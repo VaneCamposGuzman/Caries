@@ -78,9 +78,9 @@ El comportamiento dinámico del sistema automatizado se ejecuta bajo el siguient
 ### Muestras de Inferencia
 A continuación se muestran los resultados visuales del modelo detectando piezas sanas (recuadro blanco) y anomalías (recuadro azul):
 
-![Prueba de Inferencia 1](evidencias/pruebaConRecuadros.png)
-![Prueba de Inferencia 2](evidencias/pruebaConRecuadros2.png)
-![Prueba de Inferencia 3](evidencias/pruebaConRecuadros3.png)
+![Prueba de Inferencia 1](evidencias/evidencias/pruebaConRecuadros.png)
+![Prueba de Inferencia 2](evidencias/evidencias/pruebaConRecuadros2.png)
+![Prueba de Inferencia 3](evidencias/evidencias/pruebaConRecuadros3.png)
 
 
 ### Métricas de Rendimiento
